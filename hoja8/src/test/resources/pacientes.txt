@@ -1,0 +1,16 @@
+María López,fractura de brazo,B
+Javier Sánchez,gastritis,A
+Elena Martínez,neumonía,E
+Pablo García,migraña,C
+Luisa Hernández,herida en la cabeza,D
+Andrés Pérez,dolor abdominal,A
+Ana Ramírez,conjuntivitis,E
+Roberto Díaz,asma,C
+Daniel Fernández,gripe,B
+Laura Pérez,apendicitis,A
+Manuel González,conjuntivitis,E
+Carmen Martínez,esguince de tobillo,D
+Sara Sánchez,fractura de pierna,C
+Diego López,insomnio,A
+Eva Ramírez,alergia,E
+Ricardo Martínez,dolor de espalda,B
