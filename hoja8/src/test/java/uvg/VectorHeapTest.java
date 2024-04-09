@@ -4,13 +4,25 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 public class VectorHeapTest {
-     public void testHeap(){
-          VectorHeap<Paciente> heap = new VectorHeap<>();
-          heap.add(new Paciente("Pepito", "fractura de craneo", 'E'));
-          heap.add(new Paciente("Jaime", "retraso mental", 'D'));
-          heap.add(new Paciente("Roberto", "deterioro de huesos", 'A'));
-          heap.add(new Paciente("Pacheca", "gusanos", 'B'));
-          
-          
+     private VectorHeap<Integer> heap;
+     @Test
+     public void AddAndRemoveHeapTest(){
+          heap.add(2); 
+          heap.add(7); 
+          heap.add(6); 
+
+          assertEquals(Integer.valueOf(1), heap.getFirst());
+          assertEquals(4, heap.size());
+     }
+
+     @Test
+     public void ClearTest(){
+          heap.add(2); 
+          heap.add(7); 
+          heap.add(6); 
+
+          assertFalse("No debe estar vacío", heap.isEmpty());
+          heap.clear();
+          assertTrue("Debe de estar vacío", heap.isEmpty());
      }
 }
